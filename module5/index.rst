@@ -1,2 +1,2 @@
-CI/CD with Argo
+CI/CD
 ====================
