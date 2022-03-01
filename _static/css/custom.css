@@ -30,3 +30,8 @@
 .highlight {
     background: #000000;
 }
+
+.highlight .go {
+   color: #FFFFFF;
+}
+
