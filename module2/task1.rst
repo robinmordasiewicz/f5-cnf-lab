@@ -14,29 +14,29 @@ We will create the namespace my-cnf to for all configuration used in the demo.
 
 #. Use kubectl to create the namespace.
 
-.. code-block:: console
+   .. code-block:: console
 
-   kubectl create ns my-cnf
+      kubectl create ns my-cnf
 
 #. To confirm the namespace(s) deployed in Kubernetes, we can use
 
-.. code-block:: console
+   .. code-block:: console
 
-   kubectl get namespaces
+      kubectl get namespaces
 
 #. Subsequent kubectl commands will use this namespace. This is achieved using the –-namespace (or -n) switch in kubectl. For example
 
-.. code-block:: console
+   .. code-block:: console
 
-   kubectl get pods --namespace my-cnf
+      kubectl get pods --namespace my-cnf
 
 #. To avoid specifying namespace in all subsequent commands, set the working namespace in the kubectl config.
 
-.. code-block:: console
+   .. code-block:: console
 
-   kubectl config set-context --current --namespace my-cnf
+      kubectl config set-context --current --namespace my-cnf
 
-   kubectl get pods
+      kubectl get pods
 
 
 Now kubectl will now return details of the my-cnf namespace without needing to explicitly specify the namespace in the kubectl command.
