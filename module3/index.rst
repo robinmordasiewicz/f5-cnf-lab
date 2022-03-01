@@ -10,6 +10,13 @@ CNF Policies
    task2.rst
    task3.rst
    task4.rst
+   task5.rst
+   task6.rst
+   task7.rst
+   task8.rst
+   task9.rst
+   task10.rst
+   task11.rst
 
 Configure CNF CGNAT and Firewall Policies
 

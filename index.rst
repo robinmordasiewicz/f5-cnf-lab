@@ -10,7 +10,5 @@ CNF Lab Guide
    module2/index.rst
    module3/index.rst
    module4/index.rst
-   module5/index.rst
-   module6/index.rst
 
 This lab will demonstrate BIG-IP CGN deployed as a Cloud-Native Network Function (CNF)
