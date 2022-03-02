@@ -15,6 +15,7 @@ sphinx-autobuild
 sphinx-copybutton
 sphinx-markdown-tables
 sphinx-rtd-theme
+sphinx-tabs
 sphinxcontrib-addmetahtml
 sphinxcontrib-blockdiag
 sphinxcontrib-mermaid
