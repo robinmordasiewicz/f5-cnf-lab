@@ -35,3 +35,19 @@
    color: #FFFFFF;
 }
 
+.command {
+  font-family: "Courier Prime", monospace;
+  display: block;
+  background: #443e3e;
+  text-shadow: 0 1px black;
+  padding: 1rem;
+  border-top: 9px solid #85898c;
+  border-left: 9px solid #85898c;
+  border-bottom: 9px solid #2a2222;
+  border-right: 9px solid #2a2222;
+  border-radius: 3px;
+  color: #eee;
+}
+.command::before {
+  content: "$ ";
+}

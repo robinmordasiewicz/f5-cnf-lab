@@ -55,4 +55,9 @@ A cool bit of code::
    import sys
    sys.exit(1)
 
+.. code-block:: bash
+
+   $ ls -lsa .
+   $ make file
+
 
