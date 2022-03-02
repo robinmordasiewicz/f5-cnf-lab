@@ -63,6 +63,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #                        # 'base_url' = ''                            \\ DEFAULTS TO '/'
 #                     }
 
+#html_theme_options = {
+#  'version_selector': True,
+#}
+
 html_theme = "f5_sphinx_theme"
 html_theme_path = f5_sphinx_theme.get_html_theme_path()
 html_sidebars = {"**": ["searchbox.html", "localtoc.html", "globaltoc.html"]}
