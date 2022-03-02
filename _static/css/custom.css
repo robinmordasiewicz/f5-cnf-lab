@@ -46,6 +46,11 @@
 }
 */
 
+.highlight .gp {
+/*  color: #c65d09; */
+  font-weight: bold
+}
+
 .command {
   font-family: "Courier Prime", monospace;
   display: block;
