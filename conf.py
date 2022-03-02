@@ -85,8 +85,9 @@ html_static_path = ['_static']
 copybutton_copy_empty_lines = False
 copybutton_prompt_text =r'\$ '
 copybutton_prompt_is_regexp = True
-copybutton_remove_prompts = False
+copybutton_remove_prompts = True
 copybutton_line_continuation_character = "\\"
+copybutton_only_copy_prompt_lines = True
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
