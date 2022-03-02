@@ -33,20 +33,18 @@ This lab will demonstrate BIG-IP CGN deployed as a Cloud-Native Network Function
 
 
 .. highlight:: bash
-   :linenothreshold: 1
-
-A cool bit of code::
+   :linenothreshold: 10
+   :linenos:
 
    #!/bin/bash
    # Some cool Bash code
    echo ${BASH_VERSINFO[*]}
 
-.. highlight:: none
-
 .. code-block:: rst
    :caption: Documentation
 
    A bit of **rst** which should be *highlighted* properly.
+
 
 .. code-block:: python
    :caption: Script
@@ -62,4 +60,9 @@ A cool bit of code::
 
 .. code:: sh 
 
-   ls -l 
+   ls -l
+
+.. code-block:: console
+
+   $ ls -lsa .
+   $ make file
