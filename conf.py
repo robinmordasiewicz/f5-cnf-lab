@@ -92,4 +92,4 @@ copybutton_line_continuation_character = "\\"
 copybutton_only_copy_prompt_lines = True
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+# pygments_style = 'sphinx'
