@@ -36,7 +36,8 @@ release = '202202152222'
 extensions = [
     "sphinxcontrib.youtube",
     "sphinx_copybutton",
-    "sphinx_tabs.tabs"
+    "sphinx_tabs.tabs",
+    "sphinxcontrib.mermaid"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
