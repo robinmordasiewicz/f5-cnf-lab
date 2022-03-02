@@ -88,3 +88,5 @@ copybutton_prompt_is_regexp = True
 copybutton_remove_prompts = False
 copybutton_line_continuation_character = "\\"
 
+# The name of the Pygments (syntax highlighting) style to use.
+pygments_style = 'sphinx'
