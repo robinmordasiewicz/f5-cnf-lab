@@ -1041,7 +1041,7 @@ div[class^='highlight'] > div > pre,
 pre,
 .span.pre {
   border: 0;
-  background: #000000;
+  /* background: #000000; */
   padding: 10px;
   padding-right: 28px;
 }
