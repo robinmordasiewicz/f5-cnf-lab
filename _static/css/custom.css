@@ -25,10 +25,6 @@
 
 .highlight-console {
   background-color: black;
- /*  background-image: radial-gradient(
-    rgba(0, 150, 0, 0.75), black 120%
-  );
-  */
   font: 1.3rem Inconsolata, monospace;
 }
 
