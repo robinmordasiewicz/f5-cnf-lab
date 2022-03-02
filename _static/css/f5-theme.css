@@ -1092,9 +1092,11 @@ dl > dd > table > tbody > tr:nth-child(odd) > td.field-body > ul {
   padding-left: 10px;
 }
 
+/*
 .highlight {
   background: none!important;
 }
+*/
 
 .pageHeader {
   height: 80px;
