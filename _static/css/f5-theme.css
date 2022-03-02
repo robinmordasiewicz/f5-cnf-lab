@@ -992,9 +992,9 @@ code,
   line-height: 1.5;
   overflow: auto;
   border-radius: 0;
-  color: #000;
+/*  color: #000; */
   border: 0;
-  background: #0000;
+/*  background: #0000; */
 }
 
 div[class^='highlight'] > table {
