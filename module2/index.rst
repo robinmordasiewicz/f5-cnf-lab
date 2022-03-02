@@ -6,7 +6,6 @@ Deploy F5 CNF
    :maxdepth: 10
    :glob:
 
-
    task1.rst
    task2.rst
    task3.rst
@@ -14,3 +13,4 @@ Deploy F5 CNF
    task5.rst
 
 Follow the steps to deploy F5 CNFs
+
