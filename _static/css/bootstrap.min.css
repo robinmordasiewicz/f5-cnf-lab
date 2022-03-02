@@ -1804,10 +1804,10 @@ pre {
     margin: 0 0 11px;
     font-size: 15px;
     line-height: 1.375;
-    color: #4d4f53;
+/*    color: #4d4f53; */
     word-break: break-all;
     word-wrap: break-word;
-    background-color: #f5f5f5;
+/*    background-color: #f5f5f5; */
     border: 1px solid #ccc;
     border-radius:0
 }
