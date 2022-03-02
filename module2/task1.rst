@@ -6,10 +6,9 @@ Create Namespace
    :maxdepth: 10
    :glob:
 
-
 |
 | Kubernetes uses namespaces as a mechanism to separate objects within a cluster.
-| We will create the namespace my-cnf to for all configuration used in the demo.
+| Create the namespace **my-cnf**
 |
 
 #. Using kubectl, create the namespace.
@@ -18,11 +17,15 @@ Create Namespace
 
       $ kubectl create ns my-cnf
 
+|
+
 #. Confirm the namespace is deployed in Kubernetes.
 
    .. code-block:: console
 
       $ kubectl get namespaces
+
+|
 
 #. Subsequent kubectl commands will use this namespace. This is achieved using the –-namespace (or -n) switch in kubectl. For example
 
@@ -30,7 +33,9 @@ Create Namespace
 
       $ kubectl get pods --namespace my-cnf
 
-#. To avoid specifying namespace in all subsequent commands, set the working namespace in the kubectl config.
+|
+
+#. Permanently set the namespace for all subsequent kubectl commands in that context.
 
    .. code-block:: console
 
@@ -38,10 +43,6 @@ Create Namespace
 
       $ kubectl get pods
 
-
-Now kubectl will now return details of the my-cnf namespace without needing to explicitly specify the namespace in the kubectl command.
-
-TIP: it is important to ensure you are always working in the correct namespace.
 
 To monitor the Kubernetes cluster, we will use the k9s tool. Open a new SSH window to the Mgmt Jumphost and launch k9s 
 k9s
