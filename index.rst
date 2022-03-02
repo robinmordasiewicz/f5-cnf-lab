@@ -60,4 +60,6 @@ A cool bit of code::
    $ ls -lsa .
    $ make file
 
+.. code:: sh 
 
+   ls -l 
