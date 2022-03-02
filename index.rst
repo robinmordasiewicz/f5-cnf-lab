@@ -66,3 +66,6 @@ This lab will demonstrate BIG-IP CGN deployed as a Cloud-Native Network Function
        C -->|Two| E[iPhone]
        C -->|Three| F[fa:fa-car Car]
 
+.. admonition:: TMSH
+
+   $ make file
