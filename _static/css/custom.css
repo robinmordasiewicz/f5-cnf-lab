@@ -6,7 +6,8 @@
 .highlight-console {
   background-color: black;
   color: #FFFFFF;
-  font: 1.3rem Inconsolata, monospace;
+ /* font: 1.3rem Inconsolata, monospace; */
+  font-family: Menlo,Monaco,Consolas,Courier New,monospace;
   width: 700px;
   box-shadow: 2px 2px 2px gray;
   border-radius: 4px;
@@ -62,6 +63,7 @@ ol > li {
 p {
   margin: 2px;
   margin-left: 0px;
+  font-size:18px;
 }
 
 body {
@@ -69,7 +71,7 @@ body {
 }
 
 .topic {
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 80px;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -88,3 +90,5 @@ body {
   border-right-color: #1e81b0;
   border-bottom-color: #1e81b0;
 }
+
+

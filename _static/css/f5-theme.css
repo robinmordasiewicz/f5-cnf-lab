@@ -992,7 +992,7 @@ code,
 .code.descname {
   width: auto;
 /*  padding: 1px; */
-  font-family: Menlo,Monaco,Consolas,Courier New,monospace;
+/*  font-family: Menlo,Monaco,Consolas,Courier New,monospace; */
   line-height: 1.5;
   overflow: auto;
 /*  border-radius: 0; */
