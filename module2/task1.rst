@@ -21,9 +21,9 @@
    Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
 
 
-.. admonition:: And, by the way...
+.. admonition::
 
-   You can make up your own admonition too.
+   Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
 
 
 .. container:: hero
