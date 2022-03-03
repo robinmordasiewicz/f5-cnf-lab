@@ -892,9 +892,11 @@ caption {
   color: #000;
 }
 
+/*
 ol.arabic {
   padding-left: 20px;
 }
+*/
 
 ol > li {
   margin-bottom: 11px;
