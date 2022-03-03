@@ -2,18 +2,14 @@
  Create Namespace
 ===================
 
-----------
- Subtitle
-----------
-
 .. toctree::
    :titlesonly:
    :maxdepth: 10
    :glob:
 
-===================================================================================================================
- Kubernetes uses namespaces as a mechanism to separate objects within a cluster. Create the namespace **my-cnf**
-===================================================================================================================
+----------------------------------------------------------------------------------
+ Kubernetes uses namespaces as a mechanism to separate objects within a cluster.
+----------------------------------------------------------------------------------
 
 #. Using kubectl, create the namespace.
 
