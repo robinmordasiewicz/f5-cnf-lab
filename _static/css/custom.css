@@ -24,6 +24,7 @@
 }
 
 .highlight-console {
+  width: 800px;
   background-color: black;
   font: 1.3rem Inconsolata, monospace;
   width: 600px;
@@ -32,12 +33,6 @@
   border-style: solid;
   border-color: #FFFFFF;
   color: #FFFFFF;
-}
-
-.highlight-console {
-  width: 800px;
-  border-width: 1px;
-  border-style: solid;
 }
 
 /*
