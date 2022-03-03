@@ -34,6 +34,11 @@
   color: #FFFFFF;
 }
 
+.highlight-console {
+  width: 800px;
+  border-width: 1px;
+  border-style: solid;
+}
 
 /*
 .highlight {
