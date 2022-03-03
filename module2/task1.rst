@@ -9,7 +9,8 @@ Namespace
 
 .. container:: topic
 
-   Kubernetes uses namespaces to separate objects within a cluster.  Create a namespace and make it the default context for all kubectl commands.
+   | In Kubernetes, namespaces provides a mechanism for isolating groups of resources within a single cluster.
+   | Create a namespace and make it the default context for all kubectl commands.
 
 #. Using kubectl, create the namespace.
 
