@@ -1,4 +1,4 @@
-CI/CD Deployment with Argo
+CI/CD with Argo
 ============================
 
 .. toctree::

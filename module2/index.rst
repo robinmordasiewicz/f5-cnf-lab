@@ -1,4 +1,4 @@
-Deploy F5 CNF
+Deploy
 =================
 
 .. toctree::
