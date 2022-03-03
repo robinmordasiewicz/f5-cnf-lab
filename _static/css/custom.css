@@ -73,8 +73,9 @@
 .command::before {
   content: "$ ";
 }
-
+/*
 ol.arabic {
   padding-left: 20px;
   padding-bottom: 20px;
 }
+*/
