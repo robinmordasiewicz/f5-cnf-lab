@@ -8,16 +8,17 @@ Namespace
    :glob:
 
 
-.. topic:: Topic
+.. topic:: TopicTopic
 
    Topic Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
 
-.. admonition::
+
+.. admonition:: AdmonitionTopic
 
    Admonition Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
 
 
-.. container:: topic
+.. container:: ContainerTopic
 
    Container Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
 
