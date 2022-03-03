@@ -1,5 +1,5 @@
 ===================
- Create Namespace
+Namespace
 ===================
 
 .. toctree::

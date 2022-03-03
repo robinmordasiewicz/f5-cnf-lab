@@ -1,4 +1,4 @@
-Create Namespace resources
+Resources
 =============================
 
 .. toctree::

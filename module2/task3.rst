@@ -1,4 +1,4 @@
-Helm Install CNF
+Helm
 =================
 
 .. toctree::
