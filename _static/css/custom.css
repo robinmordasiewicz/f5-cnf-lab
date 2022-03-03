@@ -79,10 +79,14 @@ ol > li {
 }
 
 p {
-   margin: 10px;
-   margin-left: 0px;
+  margin: 10px;
+  margin-left: 0px;
 }
 
 body {
-    font-weight: 500;
+  font-weight: 500;
+}
+
+.topic {
+  font-size: 18px 
 }
