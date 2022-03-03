@@ -815,7 +815,7 @@ h4 {
 
     h1 {
       font-size: 22px;
-      margin-bottom: 0px;
+      margin-bottom: 30px;
 
     }
     h2 {
@@ -898,9 +898,11 @@ ol.arabic {
 }
 */
 
+/*
 ol > li {
   margin-bottom: 20px;
 }
+*/
 
 /*
 formatting for sphinx pullquote directive
