@@ -6,18 +6,28 @@ Running Config
    :maxdepth: 10
    :glob:
 
-Kubernetes Object Hierarchy: 
-- Cluster 
-   - Namespace 
-         - Pod 
-            - Container 
+
+.. container:: topic
+
+   The kubernetes running config may be viewed and modified.
+
+#. View all pods and services.
+
+   .. code-block:: console
+
+      $ kubectl get pod,svc -o wide 
  
-To directly view all Pods and Services 
-kubectl get pod,svc -o wide 
+   .. container:: subtopic
+
+      A Kubernetes service is an abstraction of a group of Pods which run the same function. Within a service, a “Selector” is defined as shown in the output above. The service subsequently uses as search criteria to match any Pod which has that label.
+
+#. View the labels assigned to a pod.
+
+   .. code-block:: console
+
+      $ kubectl describe <pod name> 
  
-A Kubernetes service is an abstraction of a group of Pods which run the same function. Within a service, a “Selector” is defined as shown in the output above. The service subsequently uses as search criteria to match any Pod which has that label. You can see labels assigned to a pod using  
-kubectl describe <pod name> 
- 
+
 Use k9s to inspect the configuration. Use ‘d’ to see TMM IPs 
 Selected K9s commands (see https://k9scli.io/topics/commands/ for full details) 
 Arrow keys	- up down 
