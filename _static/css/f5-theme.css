@@ -991,13 +991,13 @@ div[class~='docutils'],
 code,
 .code.descname {
   width: auto;
-  padding: 1px;
+/*  padding: 1px; */
   font-family: Menlo,Monaco,Consolas,Courier New,monospace;
   line-height: 1.5;
   overflow: auto;
-  border-radius: 0;
+/*  border-radius: 0; */
 /*  color: #000; */
-  border: 0;
+/*  border: 0; */
 /*  background: #0000; */
 }
 
