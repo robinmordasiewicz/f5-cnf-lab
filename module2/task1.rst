@@ -7,23 +7,7 @@
    :maxdepth: 10
    :glob:
 
-.. index::
-
-    Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
-
-.. admonition::
-
-   Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
-
-.. index:: reST directives; seealso
-
-.. topic:: Kubernetes Namespace
-
-   Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
-
-.. topic:: Kubernetes Namespace
-
-    Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
+.. topic:: Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context.
 
 .. sidebar:: Optional Sidebar Title
    :subtitle: Optional Sidebar Subtitle
