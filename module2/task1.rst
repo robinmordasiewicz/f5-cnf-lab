@@ -23,7 +23,7 @@
 
       $ kubectl create ns my-cnf
 
-#. Confirm the namespace has been deployed.
+#. Confirm that the namespace has been created.
 
    .. code-block:: console
 
