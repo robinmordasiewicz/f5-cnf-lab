@@ -7,10 +7,6 @@
    :maxdepth: 10
    :glob:
 
-.. note::
-   Kubernetes uses namespaces as a mechanism to separate objects within a cluster.
-   Create a namespace and make it the default context.
-
 ::
 
    Kubernetes uses namespaces as a mechanism to separate objects within a cluster.
