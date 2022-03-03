@@ -9,7 +9,7 @@ Namespace
 
 .. container:: topic
 
-   Kubernetes uses namespaces as a mechanism to separate objects within a cluster.  Create a namespace and make it the default context for all kubectl commands.
+   Kubernetes uses namespaces to separate objects within a cluster.  Create a namespace and make it the default context for all kubectl commands.
 
 #. Using kubectl, create the namespace.
 
@@ -23,13 +23,13 @@ Namespace
 
       $ kubectl get namespaces
 
-#. Subsequent kubectl commands will use this namespace. This is achieved using the –-namespace (or -n) switch in kubectl. For example
+#. View the pods in the new namespace, by adding the *--namespace* argument.
 
    .. code-block:: console
 
       $ kubectl get pods --namespace my-cnf
 
-#. Permanently set the namespace for all subsequent kubectl commands in that context.
+#. Permanently set the namespace for all subsequent kubectl commands in the *my-cnf* context.
 
    .. code-block:: console
 
