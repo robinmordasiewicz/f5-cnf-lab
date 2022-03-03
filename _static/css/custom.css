@@ -8,6 +8,7 @@
   color: #FFFFFF;
  /* font: 1.3rem Inconsolata, monospace; */
   font-family: Menlo,Monaco,Consolas,Courier New,monospace;
+  line-height: 1.0;
   width: 700px;
   box-shadow: 2px 2px 2px gray;
   border-radius: 4px;
