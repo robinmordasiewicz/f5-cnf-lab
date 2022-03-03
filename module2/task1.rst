@@ -1,12 +1,12 @@
 ================
- Document Title
+ Create Namespace
 ================
 
 ----------
  Subtitle
 ----------
 
-Create Namespace
+ Document Title
 ===================
 
 .. toctree::
@@ -14,36 +14,49 @@ Create Namespace
    :maxdepth: 10
    :glob:
 
+====================================================================================
 |
 | Kubernetes uses namespaces as a mechanism to separate objects within a cluster.
 | Create the namespace **my-cnf**
 |
+====================================================================================
 
 #. Using kubectl, create the namespace.
 
-   .. code-block:: console
+   |
 
-      $ kubectl create ns my-cnf
+      .. code-block:: console
 
-|
+         $ kubectl create ns my-cnf
+
+   |
+   |
 
 #. Confirm the namespace is deployed in Kubernetes.
 
-   .. code-block:: console
+   |
 
-      $ kubectl get namespaces
+      .. code-block:: console
 
-|
+         $ kubectl get namespaces
+
+   |
+   |
 
 #. Subsequent kubectl commands will use this namespace. This is achieved using the –-namespace (or -n) switch in kubectl. For example
+
+   |
 
    .. code-block:: console
 
       $ kubectl get pods --namespace my-cnf
 
-|
+   |
+   |
 
 #. Permanently set the namespace for all subsequent kubectl commands in that context.
+
+   |
 
    .. code-block:: console
 
@@ -51,6 +64,8 @@ Create Namespace
 
       $ kubectl get pods
 
+   |
+   |
 
 To monitor the Kubernetes cluster, we will use the k9s tool. Open a new SSH window to the Mgmt Jumphost and launch k9s 
 k9s
