@@ -9,6 +9,12 @@
 CNF Lab Guide
 ===================
 
+.. sidebar:: reST content elements
+
+   * one
+   * two
+   * three
+
 .. toctree::
    :titlesonly:
    :maxdepth: 10
