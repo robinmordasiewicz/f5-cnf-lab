@@ -1,4 +1,4 @@
-Control Plane CNF
+Control Plane
 ====================
 
 .. toctree::
