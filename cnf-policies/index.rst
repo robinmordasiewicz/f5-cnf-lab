@@ -1,5 +1,5 @@
-CNF Policies
-=============
+CGNAT Policies
+================
 
 .. toctree::
    :titlesonly:
@@ -18,5 +18,8 @@ CNF Policies
    task10.rst
    task11.rst
 
-Configure CNF CGNAT and Firewall Policies
 
+.. container:: topic
+
+   Configure CGNAT and Firewall Policies
+   
