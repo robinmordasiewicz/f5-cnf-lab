@@ -20,10 +20,10 @@ CNF Lab Guide
    :maxdepth: 10
    :glob:
 
-   module1/index.rst
+   lab-access/index.rst
    deployment/index.rst
-   module3/index.rst
-   module4/index.rst
+   cnf-policies/index.rst
+   cicd-with-argo/index.rst
 
 
 BIG-IP CGN deployed as a Cloud-Native Network Function (CNF)
