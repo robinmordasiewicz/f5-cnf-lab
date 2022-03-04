@@ -22,8 +22,8 @@ CNF Lab Guide
 
    lab-access/index.rst
    deployment/index.rst
-   cnf-policies/index.rst
-   cicd-with-argo/index.rst
+   policies/index.rst
+   cicd/index.rst
 
 
 BIG-IP CGN deployed as a Cloud-Native Network Function (CNF)
