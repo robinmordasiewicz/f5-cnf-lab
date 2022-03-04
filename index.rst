@@ -50,3 +50,15 @@ BIG-IP CGN deployed as a Cloud-Native Network Function (CNF)
 .. container:: topic
 
    Namespaces provide a mechanism for isolating groups of resources within a single cluster.  Create a namespace and make it the default context for all kubectl commands.
+
+
+Mermaid Template
+#################
+
+.. mermaid::
+
+    graph LR
+    A[Hard edge] -->B(Round edge)
+        B --> C{Decision}
+        C -->|One| D[Result one]
+        C -->|Two| E[Result two]
