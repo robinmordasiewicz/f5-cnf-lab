@@ -21,7 +21,7 @@ CNF Lab Guide
    :glob:
 
    module1/index.rst
-   module2/index.rst
+   deployment/index.rst
    module3/index.rst
    module4/index.rst
 
