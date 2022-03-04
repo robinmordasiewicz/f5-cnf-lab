@@ -18,9 +18,11 @@ CGNAT Policies
    task10.rst
    task11.rst
 
+
 .. container:: topic
 
    Configure CGNAT and Firewall Policies
+
 
 .. mermaid::
 
@@ -39,6 +41,7 @@ CGNAT Policies
    classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
    class n1,n2,n3,n4,p1,p2,p3 k8s;
    class zoneA,zoneB cluster;
+
 
 .. mermaid::
 
