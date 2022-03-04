@@ -16,6 +16,7 @@ CGNAT Policies
    task8.rst
    task9.rst
    task10.rst
+   task11.rst
 
 
 .. container:: topic
