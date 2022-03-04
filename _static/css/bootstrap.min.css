@@ -1351,18 +1351,21 @@ td, th {
     box-sizing:border-box
 }
 
+/*
 html {
     font-size: 10px;
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0)
 }
+*/
 
+/*
 body {
-    font-family: Proxima, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
-    font-size: 16px;
+    font-family: Proxima, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;  font-size: 16px; */
     line-height: 1.375;
     color: #4d4f53;
     background-color:#fff
 }
+*/
 
 input, button, select, textarea {
     font-family: inherit;
@@ -1797,7 +1800,7 @@ kbd kbd {
     -webkit-box-shadow: none;
     box-shadow:none
 }
-
+/*
 pre {
     display: block;
     padding: 10.5px;
@@ -1811,7 +1814,7 @@ pre {
     border: 1px solid #ccc;
     border-radius:0
 }
-
+*/
 pre code {
     padding: 0;
     font-size: inherit;

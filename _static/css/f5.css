@@ -5553,6 +5553,7 @@ a.no-decoration:active {
     src: url(/assets/fonts/ProximaThin.woff2) format('woff2'), url(/assets/fonts/ProximaThin.woff) format('woff')
 }
 
+/*
 body {
     font-family: Proxima,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 /*    font-size: 14px; */
@@ -5562,6 +5563,7 @@ body {
 /*    background-color: #E0E0E0; */
     position: relative
 }
+*/
 
 /* Start of Coveo search bar in header */
 

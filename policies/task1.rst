@@ -10,9 +10,9 @@ View NAT44
 
    Typical deployments use NAT44 to map private UE addressing to Public IPs. This demo uses NAPT translation – other translation techniques (e.g. PBA) will be shown in future demos. 
 
-.. sidebar:: reST content elements
+.. sidebar:: No Connectivity !
 
-   At this point, “ping” and “curl” should fail as there is no CGNAT policy deployed. 
+   “ping” and other network diagnostics tools will fail until CGNAT policies are activated.
 
 #. Configure UE to use only IPv4
 
@@ -31,8 +31,8 @@ View NAT44
       $ ping web1.cnf.local 
       $ curl web1.cnf.local
 
-.. container:: subtopic
+   .. container:: subtopic
 
-   You can also connect via RDP to the Subscriber Client (UE) Desktop. This enables testing using a Web Browser.
-   Note: The Subscriber Client credentials are ubuntu/passw0rd 
+      | Connect via RDP to the Subscriber Client (UE) Desktop to test connectivity using a Web Browser.
+      | Note: The Subscriber Client credentials are ubuntu/passw0rd
 
