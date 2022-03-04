@@ -19,7 +19,7 @@ import f5_sphinx_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'F5 CNF'
+project = 'CNF'
 copyright = '2022, F5'
 author = 'Collaborators'
 
