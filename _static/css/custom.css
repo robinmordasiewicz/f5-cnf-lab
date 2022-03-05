@@ -354,7 +354,7 @@ pre {
 }
 
 .breadcrumb {
-  font-size: 18px;
+  font-size: 16px;
   background-color: #0E5C8D;
   margin: 0px;
   padding: 5px;
@@ -387,3 +387,7 @@ i.breadcrumb {
 .breadcrumbanchor:visited {color:white;}
 .breadcrumbanchor:hover   {color:gray;}
 .breadcrumbanchor:active  {color:white;}
+
+.breadcrumbcurrent {
+  font-style: italic;
+}

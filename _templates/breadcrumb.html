@@ -8,7 +8,7 @@
 
           {%- if parents|length > 0 %}
             {%- for parent in parents %}
-              &gt; <a href="{{ parents[loop.index0].link }}" class=breadcrumbanchor>{{ parents[loop.index0].title|striptags|e }}</a> &raquo; {{ title }}
+              &gt; <a href="{{ parents[loop.index0].link }}" class=breadcrumbanchor>{{ parents[loop.index0].title|striptags|e }}</a> &raquo; <span class="breadcrumbcurrent">{{ title }}</span>
             {%- endfor %}
           {%- endif %}
 
