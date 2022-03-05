@@ -1,14 +1,14 @@
         <!-- custom breadcrumb -->
-        <h6>
+        <div class="breadcrumb">
           {%- if master_doc == pagename %}
             <a href="index.html">&nbsp;</a>
           {%- else %}
-            <a href="{{ pathto(master_doc) }}">{{ project|striptags|e }}</a>
+            <a href="{{ pathto(master_doc) }}" class=breadcrumbanchor>{{ project|striptags|e }}</a>
           {%- endif %}
 
           {%- if parents|length > 0 %}
             {%- for parent in parents %}
-              &gt; <a href="{{ parents[loop.index0].link }}">{{ parents[loop.index0].title|striptags|e }}</a> &raquo; {{ title }}
+              &gt; <a href="{{ parents[loop.index0].link }}" class=breadcrumbanchor>{{ parents[loop.index0].title|striptags|e }}</a> &raquo; {{ title }}
             {%- endfor %}
           {%- endif %}
 
@@ -29,5 +29,5 @@
     {% endif %}
 
           </span>
-        </h6>
+        </div>
         <!-- end custom breadcrumb -->

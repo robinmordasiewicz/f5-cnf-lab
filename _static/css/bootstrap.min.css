@@ -4492,7 +4492,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     border-top-left-radius: 0;
     border-top-right-radius:0
 }
-
+/*
 .breadcrumb {
     padding: 8px 15px;
     margin-bottom: 22px;
@@ -4514,7 +4514,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .breadcrumb > .active {
     color:#39404b
 }
-
+*/
 .pagination {
     display: inline-block;
     padding-left: 0;

@@ -374,7 +374,7 @@ a[aria-expanded="true"]::before {
 }
 */
 
-
+/*
 .site-article-inner {
     width: 95%;
     display: inline-grid;
@@ -384,6 +384,7 @@ a[aria-expanded="true"]::before {
   margin-left: 0px;
   display: block;
 }
+*/
 
 .site-breadcrumb-nav {
   padding-top: 16px;
