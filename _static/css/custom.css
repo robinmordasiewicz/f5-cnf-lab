@@ -383,7 +383,7 @@ i.breadcrumb {
     color:#39404b
 }
 
-.breadcrumbanchor:link    {color:orange;}
-.breadcrumbanchor:visited {color:green;}
-.breadcrumbanchor:hover   {color:yellow;}
-.breadcrumbanchor:active  {color:red;}
+.breadcrumbanchor:link    {color:white;}
+.breadcrumbanchor:visited {color:white;}
+.breadcrumbanchor:hover   {color:gray;}
+.breadcrumbanchor:active  {color:white;}
