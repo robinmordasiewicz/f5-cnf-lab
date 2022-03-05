@@ -188,6 +188,7 @@ var Documentation = {
   /**
    * add context elements like header anchor links
    */
+
   addContextElements : function() {
     $('div[id] > :header:first').each(function() {
       $('<a class="headerlink">\u00B6</a>').

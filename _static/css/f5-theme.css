@@ -46,11 +46,14 @@ a.copybtn {
   max-height:20vh
 }
 
+/*
 #content {
   padding: 12px;
   transition: all 0.3s;
 }
+*/
 
+/*
 #content.active {
   margin-left: 6px;
 }
@@ -74,14 +77,17 @@ a.copybtn {
       margin-left: 0;
     }
 }
+*/
 
-/* .search, #searchbox {
+/*
+.search, #searchbox {
   margin: auto;
   display: inline;
   width: 80%;
   vertical-align: bottom;
   border-radius: 4px;
-} */
+}
+*/
 
 #sidebar p.caption-text {
   font-weight: bold;
@@ -142,7 +148,7 @@ a.headerlink:hover {
 
 .nav-sidebartoc a {
   display: table-cell;
-  color: #000;
+  color: #FFFFFF;
 }
 
 /* disable underline for hover event */
@@ -156,7 +162,7 @@ a:hover{
 }
 
 .nav-sidebartoc a:hover {
-  color: #0c5c8d;
+ /*  color: #0c5c8d; */
   text-decoration: none;
 }
 
@@ -184,6 +190,7 @@ a:hover{
   display: none;
 }
 
+/*
 #sidebar, .section-nav {
   width: 199px;
   margin-right: 0px;
@@ -200,6 +207,7 @@ a:hover{
   font-size: 14px;
   margin-top: 0px;
 }
+*/
 
 #sidebar.active {
     margin-left: -35%;
@@ -502,20 +510,22 @@ ul li p {
 
 }
 
+/*
 .sidebar>p,.sidebar>ul,.sidebar>li {
   font-size: 90%;
 }
+*/
 
 .sidebar>ul,.sidebar>li {
   margin: 11px;
   padding-left: 5px;
 }
-
+/*
 .sidebar-title {
   font-weight: bold;
   font-size: 100%;
 }
-
+*/
 
 /*
 * Panels for Tip, See also, Note etc
@@ -815,8 +825,8 @@ h4 {
 @media (min-width: 1271px) {
 
     h1 {
-      font-size: 22px;
-      margin-bottom: 30px;
+      font-size: 0px;
+      margin-bottom: 0px;
 
     }
     h2 {

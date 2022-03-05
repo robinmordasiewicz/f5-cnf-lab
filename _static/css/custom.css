@@ -68,9 +68,14 @@ ol > li {
 }
 
 p {
-/*  margin: 2px; */
-/  margin-left: 15px; */
-/*  font-size:18px; */
+  padding: 4px;
+  margin: 10px;
+}
+
+html { 
+  margin:0; 
+  padding:0; 
+  height:100%; 
 }
 
 body {
@@ -78,12 +83,13 @@ body {
   font-size: 14px;
   line-height: 1.375;
   position: relative
-  font-size: 14px;
+  margin:0; 
+  padding: 0 0 0 0;
+  height:100%; 
+  width: 100%;
   font-weight: 400;
   color: #000000;
   background-color: #FFFFFF;
-  padding: 0 0 0 0;
-  width: 100%;
   scroll-padding-top: 28px;
 }
 
@@ -101,11 +107,11 @@ body {
   border-right-width: 1px;
   border-bottom-width: 1px;
   border-style: solid;
-  border-color: #3576BE;
-  border-left-color: #3576BE;
-  border-top-color: #3576BE;
-  border-right-color: #3576BE;
-  border-bottom-color: #3576BE;
+  border-color: #0E5C8D;
+  border-left-color: #0E5C8D;
+  border-top-color: #0E5C8D;
+  border-right-color: #0E5C8D;
+  border-bottom-color: #0E5C8D;
 }
 
 .topic-title {
@@ -135,8 +141,29 @@ body {
 }
 */
 
-.hero-header {
-  background: url(_static/images/adaptive-apps-PARENT-solutions-illustration-hero_hd.jpg);
+.hero-header-image {
+  background: url(../images/adaptive-apps-PARENT-solutions-illustration-hero_hd.jpg);
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 34px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  padding-left: 275px;
+  padding-top: 80px;
+}
+
+.hero-header-block {
+  font-size: 22px;
+  font-style: italics;
+  color: #FFFFFF;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-bottom: 57px;
 }
 
 .subtopic {
@@ -153,11 +180,11 @@ body {
   border-right-width: 1px;
   border-bottom-width: 1px;
   border-style: solid;
-  border-color: #3576BE;
-  border-left-color: #3576BE;
-  border-top-color: #3576BE;
-  border-right-color: #3576BE;
-  border-bottom-color: #3576BE;
+  border-color: #0E5C8D;
+  border-left-color: #0E5C8D;
+  border-top-color: #0E5C8D;
+  border-right-color: #0E5C8D;
+  border-bottom-color: #0E5C8D;
   background-color: #ECECEE;
 }
 
@@ -175,18 +202,18 @@ body {
   border-right-width: 1px;
   border-bottom-width: 1px;
   border-style: solid;
-  border-color: #3576BE;
-  border-left-color: #3576BE;
-  border-top-color: #3576BE;
-  border-right-color: #3576BE;
-  border-bottom-color: #3576BE;
+  border-color: #0E5C8D;
+  border-left-color: #0E5C8D;
+  border-top-color: #0E5C8D;
+  border-right-color: #0E5C8D;
+  border-bottom-color: #0E5C8D;
   background-color: #ECECEE;
 }
 
 .youtube {
   position: absolute;
   right: 0;
-  top: 86px;
+  top: 255px;
   margin-right: 30px;
 /*  width: 250px; */
 /*  float: right; */
@@ -210,4 +237,108 @@ pre {
 /*    background-color: #f5f5f5; */
 /*    border: 1px solid #ccc; */
 /*    border-radius:0 */
+}
+
+.sidebar {
+  font-size: 12px;
+  position: absolute;
+  top: 450px;
+  right: 0;
+  width: 215px;
+  margin-right: 110px;
+  z-index: 1000;
+  border-radius: 4px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #0E5C8D;
+  border-left-color: #0E5C8D;
+  border-top-color: #0E5C8D;
+  border-right-color: #0E5C8D;
+  border-bottom-color: #0E5C8D;
+  background-color: #ECECEE;
+  padding: 0px;
+}
+
+.sidebar-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #0E5C8D;
+  padding: 4px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.sidebar-subtitle {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000000;
+  padding: 4px;
+  padding-left: 20px;
+}
+
+#searchbox {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#sidebar, .section-nav {
+  width: 270px;
+  margin-right: 0px;
+  position: fixed;
+  top: 0px;
+  transition: all 0.3s;
+  background-color: #0E5C8D;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  overflow-x: auto;
+  overflow-y: scroll;
+  padding: 20px 0px 0px 20px;
+  font-size: 16px;
+  color: #FFFFFF;
+  min-height: 1080px;
+}
+
+#content.active {
+  margin-left: 6px;
+}
+
+@media (min-width: 1271px) {
+    #content {
+      margin-left: 0;
+      min-height: 728px;
+    }
+    #content.active {
+      margin-left: 270px;
+      margin-right: 315px
+    }
+}
+
+@media (max-width: 1270px) {
+    #content {
+      margin-left: 325px;
+    }
+    #content.active {
+      margin-left: 0;
+    }
+}
+
+.nav-sidebartoc {
+    font-size: 14px;
+}
+
+#content {
+  padding: 12px;
+  transition: all 0.3s;
 }

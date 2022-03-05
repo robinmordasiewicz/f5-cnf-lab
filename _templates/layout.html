@@ -27,19 +27,23 @@
 {%- block sidebar2 %}{% endblock %}
 
 {%- block header %}
+<!--
 <div id="search-container" class="support-header">
   <div class="slideable_content">
     <div class="container">
       <div id="blue-banner">
         <span class="search-tips">
-          <a target="_blank" href="" class="internalLink">Search tips <span class="icon-1x-no-position icon-new-window" data-icon="new-window"></span></a>
+          <a target="_blank" href="" class="internalLink">
+            Search tips
+            <span class="icon-1x-no-position icon-new-window" data-icon="new-window">
+            </span>
+          </a>
         </span>
       </div>
     </div>
   </div>
 </div>
-</div>
-
+-->
 {% endblock %}
 
 <div class="wrapper">
@@ -56,6 +60,11 @@
       <div id="version_selector_wrapper">
       </div>
       {%- endif %}
+
+      {%- block searchbox %}
+      {% include "searchbox.html" %}
+      {% endblock %}
+
       <nav class="nav-sidebartoc">
 
 <!--
@@ -88,10 +97,10 @@
 
 
 
-
   {% block main %}
   <div class="main active" id="content" >
     <article class="docs-container site-article-inner">
+
 
       {%- block breadcrumb %}
       {% include "breadcrumb.html" %}
@@ -101,7 +110,7 @@
     <!--a title="Export PDF" id="export-pdf" class="btn btn btn-link pull-right">View PDF</a-->
     <!--<button type="button" id="export-pdf" class="btn btn-link right"></button>-->
 
-
+<!--
     {% if (theme_version_selector) %}
      {% if (theme_enable_version_warning_banner) %}
          <div class="sidebar" id="version-warning" style="display: none;">
@@ -111,6 +120,7 @@
           </div>
      {%- endif %}
     {%- endif %}
+-->
 
 
      <div role="main">

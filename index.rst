@@ -12,17 +12,20 @@
    policies/index.rst
    cicd/index.rst
 
-.. sidebar:: Optional Sidebar Title
-   :subtitle: Optional Sidebar Subtitle
+.. sidebar:: Title
+   :subtitle: Subtitle
 
    Subsequent indented lines comprise
    the body of the sidebar, and are
    interpreted as body elements.
 
-.. container:: hero-header
+.. container:: hero-header-image
 
-   F5 Cloud Native network functions.
+   F5 Cloud Native Functions
 
+.. container:: hero-header-block
+
+   Unleash the power of Kubernetes
 
 .. mermaid::
    :caption: Figure 5: Pods in Zones
@@ -41,8 +44,8 @@
           n6(Node6)
       end
       classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
-      classDef k8s fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
-      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
+      classDef k8s fill:#0E5C8D,stroke:#fff,stroke-width:4px,color:#fff;
+      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#0E5C8D;
       class n1,n2,n3,n4,n5,n6 k8s;
       class zoneA,zoneB,zoneC cluster;
 
@@ -59,8 +62,8 @@
       service-->pod2[Pod];
       end
       classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
-      classDef k8s fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
-      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
+      classDef k8s fill:#0E5C8D,stroke:#fff,stroke-width:4px,color:#fff;
+      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#0E5C8D;
       class ingress,service,pod1,pod2 k8s;
       class UE plain;
       class cluster cluster;
@@ -69,8 +72,8 @@
 .. container:: youtube
 
    ..  youtube:: 7riGQIJRJgI
-       :width: 284
-       :height: 160
+       :width: 295
+       :height: 135
 
 .. topic:: Your Topic Title
 
@@ -92,7 +95,7 @@
 
    .. container:: orderedlistitem
 
-      An orderedlistitem helps explain whats going on..
+      An orderedlistitem helps explain whats going on.
 
 #. Red Items
 
@@ -104,6 +107,5 @@
 
    .. container:: orderedlistitem
 
-      An orderedlistitem helps explain whats going on..
-
+      An orderedlistitem helps explain whats going on.
 

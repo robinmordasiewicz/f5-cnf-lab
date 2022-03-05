@@ -12,7 +12,14 @@ Deployment
    running-config.rst
    control-plane.rst
 
+.. container:: hero-header-image
+
+   Deploy F5 Cloud Native Network Functions 
+
+.. container:: hero-header-block
+
+   CGNAT container running in k8s
+
 .. container:: topic
 
-   Follow the steps to deploy F5 CNFs
-
+   CGNAT runs as a container in k8s platforms.
