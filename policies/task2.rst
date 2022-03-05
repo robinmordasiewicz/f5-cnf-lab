@@ -12,7 +12,13 @@ Apply CGN Config
 
 .. sidebar:: Note!
 
-   If you open a new Web Shell connection, remember to change to the right directory 
+   If you open a new Web Shell connection, remember to change to the right directory
+
+.. container:: youtube
+
+   ..  youtube:: 7riGQIJRJgI
+       :width: 284
+       :height: 160
 
 #. Connect to the Mgmt Jumphost. 
 

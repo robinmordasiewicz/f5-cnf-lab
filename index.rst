@@ -2,19 +2,6 @@
  F5 CNF
 =====================
 
------------
- Subtitle
------------
-
-CNF Lab Guide
-===================
-
-.. sidebar:: reST content elements
-
-   * one
-   * two
-   * three
-
 .. toctree::
    :titlesonly:
    :maxdepth: 10
@@ -25,42 +12,98 @@ CNF Lab Guide
    policies/index.rst
    cicd/index.rst
 
+.. sidebar:: Optional Sidebar Title
+   :subtitle: Optional Sidebar Subtitle
 
-BIG-IP CGN deployed as a Cloud-Native Network Function (CNF)
---------------------------------------------------------------
+   Subsequent indented lines comprise
+   the body of the sidebar, and are
+   interpreted as body elements.
+
+.. container:: hero-header
+
+   F5 Cloud Native network functions.
+
 
 .. mermaid::
+   :caption: Figure 5: Pods in Zones
 
-   graph LR;
-    client([client])-. Ingress-managed <br> load balancer .->ingress[Ingress];
-    ingress-->|routing rule|service[Service];
-    subgraph cluster
-    ingress;
-    service-->pod1[Pod];
-    service-->pod2[Pod];
-    end
-    classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
-    classDef k8s fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
-    classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
-    class ingress,service,pod1,pod2 k8s;
-    class client plain;
-    class cluster cluster;
+   graph TB
+      subgraph "zoneA"
+          n1(Node1)
+          n2(Node2)
+      end
+      subgraph "zoneB"
+          n3(Node3)
+          n4(Node4)
+      end
+      subgraph "zoneC"
+          n5(Node5)
+          n6(Node6)
+      end
+      classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
+      classDef k8s fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
+      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
+      class n1,n2,n3,n4,n5,n6 k8s;
+      class zoneA,zoneB,zoneC cluster;
 
+
+.. mermaid::
+   :caption: Figure 6: Ingress Controller
+
+   graph LR
+      UE([UE])-. 5G Radio Access .->ingress[Ingress];
+      ingress-->|routing rule|service[Service];
+      subgraph cluster
+      ingress;
+      service-->pod1[Pod];
+      service-->pod2[Pod];
+      end
+      classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
+      classDef k8s fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
+      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
+      class ingress,service,pod1,pod2 k8s;
+      class UE plain;
+      class cluster cluster;
+
+
+.. container:: youtube
+
+   ..  youtube:: 7riGQIJRJgI
+       :width: 284
+       :height: 160
+
+.. topic:: Your Topic Title
+
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
 
 .. container:: topic
 
-   Namespaces provide a mechanism for isolating groups of resources within a single cluster.  Create a namespace and make it the default context for all kubectl commands.
+   F5 Cloud Native network functions.
 
+#. Blue Items
 
-Mermaid Template
-#################
+   The first paragraph in an ordered list would be nice to have a gray background.
 
-.. mermaid::
+   .. code-block:: console
 
-   graph LR
-   A[Hard edge] -->B(Round edge)
-       B --> C{Decision}
-       C -->|One| D[Result one]
-       C -->|Two| E[Result two]
+      $ kill -9 86
+
+   .. container:: orderedlistitem
+
+      An orderedlistitem helps explain whats going on..
+
+#. Red Items
+
+   The first paragraph in an ordered list would be nice to have a gray background.
+
+   .. code-block:: console
+
+      $ kill -9 86
+
+   .. container:: orderedlistitem
+
+      An orderedlistitem helps explain whats going on..
 
 

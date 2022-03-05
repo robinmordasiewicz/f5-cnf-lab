@@ -36,7 +36,6 @@ release = '202202152222'
 extensions = [
     "sphinxcontrib.youtube",
     "sphinx_copybutton",
-    "sphinx_tabs.tabs",
     "sphinxcontrib.mermaid"
 ]
 
