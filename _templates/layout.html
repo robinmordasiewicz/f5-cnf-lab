@@ -53,7 +53,12 @@
 
 {% block content %}
 
-  <div class="titlebar">&nbsp;</div>
+  <div class="titlebar">
+      {%- block breadcrumb %}
+      {% include "breadcrumb.html" %}
+      {% endblock %}
+  </div>
+
 
   {%- if sidebars != None %}
     {%- block f5sidebar %}
@@ -97,10 +102,6 @@
 
     {%- endblock %}
   {%- endif %}
-
-      {%- block breadcrumb %}
-      {% include "breadcrumb.html" %}
-      {% endblock %}
 
   {% block main %}
   <div class="main active" id="content" >

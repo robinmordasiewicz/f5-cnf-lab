@@ -309,6 +309,10 @@ pre {
   color: #FFFFFF;
   min-height: 1080px;
   z-index: 10;
+  background-image: linear-gradient(
+  to bottom,
+  #0E5C8D, #FFFFFF
+  );
 }
 
 #content.active {
@@ -415,5 +419,11 @@ i.breadcrumb {
   background-color: #0E5C8D;
   height: 37px;
   z-index: -10;
+  background-image:
+    linear-gradient(
+      to right,
+      #0E5C8D, #FFFFFF
+    );
+  margin-left: 270px;
 }
 
