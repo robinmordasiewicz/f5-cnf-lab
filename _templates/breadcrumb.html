@@ -11,9 +11,10 @@
               &gt; <a href="{{ parents[loop.index0].link }}" class=breadcrumbanchor>{{ parents[loop.index0].title|striptags|e }}</a> &raquo; <span class="breadcrumbcurrent">{{ title }}</span>
             {%- endfor %}
           {%- endif %}
+        </div>
 
 
-          <span class="right">
+        <div class="navigation-container">
 
     {% if (next or prev) and (theme_next_prev_link) %}
      <div class="row next-prev-btn-row">
@@ -28,6 +29,5 @@
      </div>
     {% endif %}
 
-          </span>
         </div>
         <!-- end custom breadcrumb -->

@@ -152,14 +152,14 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: -1;
+  z-index: 1;
   padding-left: 275px;
   padding-top: 80px;
 }
 
 .hero-header-block {
   font-size: 22px;
-  font-style: italics;
+  font-style: italic;
   color: #FFFFFF;
   padding-top: 100px;
   padding-left: 80px;
@@ -211,7 +211,7 @@ body {
 }
 
 .youtube {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 255px;
   margin-right: 30px;
@@ -241,7 +241,7 @@ pre {
 
 .sidebar {
   font-size: 12px;
-  position: absolute;
+  position: fixed;
   top: 450px;
   right: 0;
   width: 215px;
@@ -288,11 +288,11 @@ pre {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 30px;
+  z-index: 10;
 }
 
 #sidebar, .section-nav {
   width: 270px;
-  margin-right: 0px;
   position: fixed;
   top: 0px;
   transition: all 0.3s;
@@ -308,6 +308,7 @@ pre {
   font-size: 16px;
   color: #FFFFFF;
   min-height: 1080px;
+  z-index: 10;
 }
 
 #content.active {
@@ -321,7 +322,7 @@ pre {
     }
     #content.active {
       margin-left: 270px;
-      margin-right: 0px
+      margin-right: 270px
     }
 }
 
@@ -336,6 +337,7 @@ pre {
 
 .nav-sidebartoc {
     font-size: 14px;
+  z-index: 10;
 }
 
 #content {
@@ -355,10 +357,15 @@ pre {
 
 .breadcrumb {
   font-size: 16px;
-  background-color: #0E5C8D;
+/*  background-color: #0E5C8D; */
   margin: 0px;
-  padding: 5px;
+  left: 300px;
+/*  padding: 5px; */
   color: #FFFFFF;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  z-index: 10;
 }
 
 i.breadcrumb {
@@ -367,20 +374,24 @@ i.breadcrumb {
     list-style: none;
     background-color: #f5f5f5;
     border-radius:0
+  z-index: 10;
 }
 
 .breadcrumb > li {
     display:inline-block
+  z-index: 10;
 }
 
 .breadcrumb > li + li:before {
     padding: 0 5px;
     color: #39404b;
     content: "/\00a0"
+  z-index: 10;
 }
 
 .breadcrumb > .active {
     color:#39404b
+  z-index: 10;
 }
 
 .breadcrumbanchor:link    {color:white;}
@@ -390,4 +401,19 @@ i.breadcrumb {
 
 .breadcrumbcurrent {
   font-style: italic;
+  z-index: 10;
 }
+
+.navigation-container {
+  position: fixed;
+  right: 100px;
+  top: 40px;
+  z-index: 10;
+}
+
+.titlebar {
+  background-color: #0E5C8D;
+  height: 37px;
+  z-index: -10;
+}
+

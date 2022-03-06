@@ -46,11 +46,14 @@
 -->
 {% endblock %}
 
+
 <div class="wrapper">
 
 <div id="docs-wrapper" itemscope itemtype="http://schema.org/Article">
 
 {% block content %}
+
+  <div class="titlebar">&nbsp;</div>
 
   {%- if sidebars != None %}
     {%- block f5sidebar %}
@@ -76,7 +79,7 @@
         <hr>
 -->
         <span class="nav-sidebartoc">
-            {{ toctree(includehidden=False, collapse=True) }}
+            {{ toctree(includehidden=True, collapse=True) }}
         </span>
       </nav>
     </div>
@@ -95,16 +98,13 @@
     {%- endblock %}
   {%- endif %}
 
-
+      {%- block breadcrumb %}
+      {% include "breadcrumb.html" %}
+      {% endblock %}
 
   {% block main %}
   <div class="main active" id="content" >
     <article class="docs-container site-article-inner">
-
-
-      {%- block breadcrumb %}
-      {% include "breadcrumb.html" %}
-      {% endblock %}
 
 
     <!--a title="Export PDF" id="export-pdf" class="btn btn btn-link pull-right">View PDF</a-->
