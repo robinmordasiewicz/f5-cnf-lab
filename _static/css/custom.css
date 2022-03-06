@@ -242,10 +242,10 @@ pre {
 .sidebar {
   font-size: 12px;
   position: fixed;
-  top: 450px;
+  top: 470px;
   right: 0;
   width: 215px;
-  margin-right: 110px;
+  margin-right: 98px;
   z-index: 1000;
   border-radius: 4px;
   border-left-width: 1px;
