@@ -126,7 +126,8 @@ body {
 
 .caption {
   padding-left: 50px;
-/*  text-align: center; */
+  text-align: right;
+  margin-right: 50px;
 }
 
 .align-default {
@@ -155,6 +156,7 @@ body {
   z-index: 1;
   padding-left: 275px;
   padding-top: 80px;
+  padding-right: 0px;
 }
 
 .hero-header-block {
@@ -163,7 +165,7 @@ body {
   color: #FFFFFF;
   padding-top: 100px;
   padding-left: 80px;
-  padding-bottom: 57px;
+  padding-bottom: 84px;
 }
 
 .subtopic {
@@ -309,15 +311,9 @@ pre {
   color: #FFFFFF;
   min-height: 1080px;
   z-index: 10;
-  background-image: linear-gradient(
-  to bottom,
-  #0E5C8D, #FFFFFF
-  );
+  background-image: linear-gradient(to bottom,#0E5C8D 25%, #FFFFFF 80%);
 }
 
-#content.active {
-  margin-left: 6px;
-}
 
 @media (min-width: 1271px) {
     #content {
@@ -326,7 +322,7 @@ pre {
     }
     #content.active {
       margin-left: 270px;
-      margin-right: 270px
+      margin-right: 340px
     }
 }
 
@@ -349,6 +345,10 @@ pre {
   transition: all 0.3s;
 }
 
+#content.active {
+  margin-left: 6px;
+}
+
 .site-article-inner {
     width: 100%;
     display: inline-grid;
@@ -363,7 +363,7 @@ pre {
   font-size: 16px;
 /*  background-color: #0E5C8D; */
   margin: 0px;
-  left: 300px;
+  left: 10px;
 /*  padding: 5px; */
   color: #FFFFFF;
   position: absolute;
@@ -410,13 +410,66 @@ i.breadcrumb {
 
 .navigation-container {
   position: fixed;
-  right: 100px;
-  top: 40px;
+  right: 220px;
+  top: -6px;
   z-index: 10;
 }
 
 .titlebar {
-  background-color: #0E5C8D;
+  height: 37px;
+  z-index: 10;
+  margin-left: 270px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.next-prev-btn-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.btn-primary{
+
+   background-color: #f1f1f1;
+   border-color: #0E5C8D;
+   color: #0E5C8D;
+
+}
+
+.btn-primary:hover{
+
+   background-color:#0c5c8d;
+   border-color: #f1f1f1;
+   color: #f1f1f1;
+
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.375;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none
+}
+
+.titlebarbackground {
   height: 37px;
   z-index: -10;
   background-image:
@@ -425,5 +478,8 @@ i.breadcrumb {
       #0E5C8D, #FFFFFF
     );
   margin-left: 270px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
-

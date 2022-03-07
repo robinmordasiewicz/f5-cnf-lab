@@ -59,6 +59,11 @@
       {% endblock %}
   </div>
 
+  <div class="titlebarbackground">
+      {%- block titlebarbackground %}
+      {% include "titlebarbackground.html" %}
+      {% endblock %}
+  </div>
 
   {%- if sidebars != None %}
     {%- block f5sidebar %}
