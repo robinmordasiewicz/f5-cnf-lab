@@ -92,3 +92,4 @@ copybutton_only_copy_prompt_lines = True
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
+html_copy_source = False
