@@ -23,6 +23,12 @@
 
    F5 Cloud Native Functions
 
+.. container:: youtube-hero
+
+   ..  youtube:: 7riGQIJRJgI
+       :width: 800
+       :height: 600
+
 .. container:: hero-header-block
 
    Unleash the power of Kubernetes
@@ -69,7 +75,7 @@
       class cluster cluster;
 
 
-.. container:: youtube
+.. container:: youtube-sidebar
 
    ..  youtube:: 7riGQIJRJgI
        :width: 295
