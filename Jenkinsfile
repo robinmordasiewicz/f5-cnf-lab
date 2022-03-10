@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'pwd'
+        sh 'make html'
       }
     }
     stage('deploy') {
