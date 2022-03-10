@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'robinhoodi:sphinx-build' }
+    docker { image 'robinhoodis/sphinx-build:latest' }
   }
   stages {
     stage('Test') {
