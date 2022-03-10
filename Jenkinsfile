@@ -5,12 +5,12 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'node --version'
+        sh 'pwd'
       }
     }
     stage('deploy') {
       steps {
-        sh 'node --version'
+        sh 'ls -al'
       }
     }
   }
