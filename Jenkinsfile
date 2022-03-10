@@ -3,12 +3,12 @@ pipeline {
     docker { image 'robinhoodis/sphinx-build:latest' }
   }
   stages {
-    stage('build') {
+    stage('make-html') {
       steps {
         sh 'make html'
       }
     }
-    stage('deploy') {
+    stage('build-nginx') {
       steps {
         sh 'ls -al'
       }
