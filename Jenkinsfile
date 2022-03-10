@@ -3,7 +3,12 @@ pipeline {
     docker { image 'robinhoodis/sphinx-build:latest' }
   }
   stages {
-    stage('Test') {
+    stage('build') {
+      steps {
+        sh 'node --version'
+      }
+    }
+    stage('deploy') {
       steps {
         sh 'node --version'
       }
