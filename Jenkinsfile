@@ -4,7 +4,6 @@ pipeline {
         stage('build-nginx') {
             steps {
                 sh 'ls -al'
-                sh 'pwd'
             }
         }
     }
