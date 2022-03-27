@@ -72,7 +72,7 @@ html_theme = "f5_sphinx_theme"
 html_theme_path = f5_sphinx_theme.get_html_theme_path()
 html_sidebars = {"**": ["searchbox.html", "localtoc.html", "globaltoc.html"]}
 html_theme_options = {
-    "site_name": "Sitemap",
+    "site_name": "CNF",
     "next_prev_link": True
 }
 

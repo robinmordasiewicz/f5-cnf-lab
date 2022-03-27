@@ -1,5 +1,4 @@
 # f5-cnf-lab
 
-cidc
+CNF source
 
-Jenkins Configuration as Code
