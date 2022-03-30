@@ -15,7 +15,7 @@
 .. sidebar:: Title
    :subtitle: Subtitle
 
-   Subsequent indented lines comprise
+   Sidebar - indented lines comprise
    the body of the sidebar, and are
    interpreted as body elements.
 
