@@ -31,7 +31,7 @@
 
 .. container:: hero-header-block
 
-   Unleash the power of Kubernetes
+   Unleash the power of Kubernetes on the world 
 
 .. mermaid::
    :caption: Figure 5: Pods in Zones
