@@ -93,7 +93,7 @@
 
 #. Blue Items
 
-   The first paragraph in an ordered list would be nice to have a gray background.
+   The first paragraph in an ordered list would be nice to have a gray or grey background.
 
    .. code-block:: console
 
