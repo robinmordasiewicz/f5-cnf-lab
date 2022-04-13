@@ -113,5 +113,5 @@
 
    .. container:: orderedlistitem
 
-      An orderedlistitem helps explain whats going on.
+      An ordered list item helps explain whats going on.
 
