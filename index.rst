@@ -17,7 +17,7 @@
 
    Sidebar TESTING - indented lines comprise
    the body of the sidebar, and are
-   interpreted as body elements. Go to town
+   interpreted as body elements. Go to town on a horse.
 
 .. container:: hero-header-image
 
