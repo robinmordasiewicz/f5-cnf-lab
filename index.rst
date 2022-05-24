@@ -1,5 +1,5 @@
 ==========
- F5 CNF
+F5 CNF
 ==========
 
 .. toctree::
@@ -130,7 +130,7 @@
 
    .. code-block:: console
 
-      $ kill -9 86
+      $ kill -9
 
    .. container:: orderedlistitem
 
