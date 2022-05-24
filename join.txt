@@ -1,3 +1,0 @@
-file clip1.mov
-file clip2.mov
-file clip3.mov
