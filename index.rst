@@ -23,15 +23,54 @@
 
    F5 Cloud Native Functions
 
-.. container:: youtube-hero
+.. container:: youtube-sidebar
 
    ..  youtube:: 7riGQIJRJgI
-       :width: 800
-       :height: 600
+       :width: 295
+       :height: 135
 
 .. container:: hero-header-block
 
    Unleash the power of Kubernetes on the world and your family
+
+.. mermaid::
+   :caption: Service Proxy for Kubernetes
+
+   graph LR;
+
+       a([Diameter - TCP/SCTP]) --- spk[Service <img src=https://img.shields.io/badge/LABEL-MESSAGE-COLOR.svg?logo=LOGO> Proxy]
+       b([SIP - TCP/UDP]) --- spk
+       c([HTTP/2 - TCP]) --- spk
+
+       subgraph bigipnext [BIG-IP - NEXT]
+           spk
+       end
+           spk --- pod1(Replica Set)
+           spk --- pod2(Replica Set)
+           spk --- pod3(Replica Set)
+       subgraph k8scluster [K8S Cluster]
+           subgraph "Diameter"
+               pod1
+           end
+           subgraph "HTTP/2"
+               pod2
+           end
+           subgraph "SIP"
+               pod3
+           end
+           pod1 --- aspenmesh
+           pod2 --- aspenmesh
+           pod3 --- aspenmesh
+       end
+
+       classDef protocols fill:#fff1f0,stroke:#000000,stroke-width:1px,color:#000,border-style:solid;
+       classDef f5 fill:#ddd,stroke:#000000,stroke-width:1px,color:#000;
+       classDef k8s fill:#326ce5,stroke:#000000,stroke-width:1px,color:#ffffff;
+       classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#326ce5;
+       class a,b,c protocols;
+       class spk,aspenmesh f5;
+       class pod1,pod2,pod3,pod4,pod5,pod6 k8s;
+       class k8scluster cluster;
 
 .. mermaid::
    :caption: Figure 5: Pods in Zones
@@ -74,12 +113,6 @@
       class UE plain;
       class cluster cluster;
 
-
-.. container:: youtube-sidebar
-
-   ..  youtube:: 7riGQIJRJgI
-       :width: 295
-       :height: 135
 
 .. topic:: Your Topic Title
 
