@@ -19,6 +19,16 @@ F5 CNF
    the body of the sidebar, and are
    interpreted as body elements. Go to town on a horse.
 
+.. topic:: Your Topic Title
+
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
+
+.. container:: topic
+
+   F5 Cloud Native network functions.
+
 .. container:: hero-header-image
 
    F5 Cloud Native Functions
@@ -72,57 +82,6 @@ F5 CNF
        class pod1,pod2,pod3,pod4,pod5,pod6 k8s;
        class k8scluster cluster;
 
-.. mermaid::
-   :caption: Figure 5: Pods in Zones
-
-   graph TB
-      subgraph "zoneA"
-          n1(Node1)
-          n2(Node2)
-      end
-      subgraph "zoneB"
-          n3(Node3)
-          n4(Node4)
-      end
-      subgraph "zoneC"
-          n5(Node5)
-          n6(Node6)
-      end
-      classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
-      classDef k8s fill:#0E5C8D,stroke:#fff,stroke-width:4px,color:#fff;
-      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#0E5C8D;
-      class n1,n2,n3,n4,n5,n6 k8s;
-      class zoneA,zoneB,zoneC cluster;
-
-
-.. mermaid::
-   :caption: Figure 6: Ingress Controller
-
-   graph LR
-      UE([UE])-. 5G Radio Access .->ingress[Ingress];
-      ingress-->|routing rule|service[Service];
-      subgraph cluster
-      ingress;
-      service-->pod1[Pod];
-      service-->pod2[Pod];
-      end
-      classDef plain fill:#ddd,stroke:#fff,stroke-width:4px,color:#000;
-      classDef k8s fill:#0E5C8D,stroke:#fff,stroke-width:4px,color:#fff;
-      classDef cluster fill:#fff,stroke:#bbb,stroke-width:2px,color:#0E5C8D;
-      class ingress,service,pod1,pod2 k8s;
-      class UE plain;
-      class cluster cluster;
-
-
-.. topic:: Your Topic Title
-
-    Subsequent indented lines comprise
-    the body of the topic, and are
-    interpreted as body elements.
-
-.. container:: topic
-
-   F5 Cloud Native network functions.
 
 #. Blue Items
 
