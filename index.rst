@@ -27,7 +27,7 @@ F5 CNF
 
 .. container:: topic
 
-   F5 Cloud Native network functions.
+   F5 Cloud Native network functions. CamelCase
 
 .. container:: hero-header-image
 
