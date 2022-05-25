@@ -19,12 +19,6 @@ F5 CNF
    the body of the sidebar, and are
    interpreted as body elements. Go to town on a horse.
 
-.. topic:: Your Topic Title
-
-    Subsequent indented lines comprise
-    the body of the topic, and are
-    interpreted as body elements.
-
 .. container:: topic
 
    F5 Cloud Native network functions. CamelCase
@@ -42,6 +36,12 @@ F5 CNF
 .. container:: hero-header-block
 
    Unleash the power of Kubernetes on the world and your family
+
+.. topic:: Your Topic Title
+
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
 
 .. mermaid::
    :caption: Service Proxy for Kubernetes
