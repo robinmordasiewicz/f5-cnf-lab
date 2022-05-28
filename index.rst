@@ -1,5 +1,5 @@
 ===========================
-Cloud Native Function - F5
+Cloud Native Functions
 ===========================
 
 .. toctree::
