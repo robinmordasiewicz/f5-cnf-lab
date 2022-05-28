@@ -18,6 +18,7 @@ F5 CNF
    Sidebar TESTING - indented lines comprise
    the body of the sidebar, and are
    interpreted as body elements. Go to town on a horse.
+   Or ride a scooter
 
 .. container:: topic
 
