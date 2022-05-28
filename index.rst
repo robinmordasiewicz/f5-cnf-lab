@@ -1,5 +1,5 @@
 ===========================
-Cloud Native Functions
+Cloud Native Function
 ===========================
 
 .. toctree::
