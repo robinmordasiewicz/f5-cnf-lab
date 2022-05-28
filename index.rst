@@ -34,10 +34,6 @@ Containerized Packs
       :width: 360
       :height: 196
 
-   ..  youtube:: 7riGQIJRJgI
-       :width: 295
-       :height: 135
-
 .. topic:: Your Topic Title
 
     Subsequent indented lines comprise
