@@ -28,15 +28,15 @@ Containerized BIG-IP
 
    F5 Cloud Native Functions
 
+.. container:: hero-header-block
+
+   Unleash the power of Kubernetes on the world and your family
+
 .. container:: youtube-sidebar
 
    ..  youtube:: 7riGQIJRJgI
        :width: 295
        :height: 135
-
-.. container:: hero-header-block
-
-   Unleash the power of Kubernetes on the world and your family
 
 .. topic:: Your Topic Title
 
