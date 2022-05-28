@@ -24,7 +24,7 @@ copyright = '2022, F5'
 author = 'Collaborators'
 
 # The full version, including alpha/beta/rc tags
-release = '202202152222'
+release = '202205281609'
 
 # -- General configuration ---------------------------------------------------
 
@@ -35,7 +35,8 @@ extensions = [
     "sphinxcontrib.youtube",
     "sphinx_copybutton",
     "sphinxcontrib.mermaid",
-    "sphinx-favicon"
+    "sphinx-favicon",
+    "sphinxcontrib.video
 ]
 
 # Add any paths that contain templates here, relative to this directory.
