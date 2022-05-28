@@ -30,6 +30,10 @@ Containerized Packs
 
 .. container:: youtube-sidebar
 
+   .. video:: intro.mp4
+      :width: 360
+      :height: 190
+
    ..  youtube:: 7riGQIJRJgI
        :width: 295
        :height: 135
@@ -79,9 +83,6 @@ Containerized Packs
        class pod1,pod2,pod3,pod4,pod5,pod6 k8s;
        class k8scluster cluster;
 
-.. video:: intro.mp4
-   :width: 360
-   :height: 190
 
 #. Blue Items
 
