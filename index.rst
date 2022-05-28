@@ -20,10 +20,6 @@ Containerized Pickles
    interpreted as body elements. Go to town on a horse.
    Or ride a scooter
 
-.. container:: topic
-
-   F5 Cloud Native network functions.
-
 .. container:: hero-header-image
 
    F5 Cloud Native Functions
