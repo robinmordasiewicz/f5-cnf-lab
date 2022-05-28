@@ -1,5 +1,5 @@
 ===========================
-Containerized Pickles
+Containerized Packs
 ===========================
 
 .. toctree::
