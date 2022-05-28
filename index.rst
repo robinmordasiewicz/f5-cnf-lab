@@ -80,10 +80,8 @@ Containerized Packs
        class k8scluster cluster;
 
 .. video:: intro.mp4
-   :width: 500
-   :height: 300
-   :autoplay:
-   :nocontrols:
+   :width: 360
+   :height: 190
 
 #. Blue Items
 
