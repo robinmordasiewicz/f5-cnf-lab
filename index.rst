@@ -1,5 +1,5 @@
 ===========================
-Cloud Native Funky
+Cloud Native Funkiness
 ===========================
 
 .. toctree::
