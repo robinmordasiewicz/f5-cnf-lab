@@ -79,7 +79,7 @@ Containerized Packs
        class pod1,pod2,pod3,pod4,pod5,pod6 k8s;
        class k8scluster cluster;
 
-.. video:: video.mp4
+.. video:: intro.mp4
    :width: 500
    :height: 300
    :autoplay:
