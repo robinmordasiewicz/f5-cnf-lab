@@ -1,5 +1,5 @@
 ===========================
-Containerized BIG-IP
+Containerized Pickles
 ===========================
 
 .. toctree::
