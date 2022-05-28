@@ -28,11 +28,11 @@ Containerized Packs
 
    Unleash the power of Kubernetes on the world and your family
 
-.. container:: youtube-sidebar
+.. container:: video-sidebar
 
    .. video:: intro.mp4
-      :width: 360
-      :height: 196
+      :width: 396
+      :height: 210
 
 .. topic:: Your Topic Title
 
