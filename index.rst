@@ -13,7 +13,7 @@ F5 CNF
    cicd/index.rst
 
 .. sidebar:: Sidebar Title
-   :subtitle: Subtitle
+   :subtitle: Sidebar Subtitle
 
    Sidebar TESTING - indented lines comprise
    the body of the sidebar, and are
