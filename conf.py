@@ -36,7 +36,7 @@ extensions = [
     "sphinx_copybutton",
     "sphinxcontrib.mermaid",
     "sphinx-favicon",
-    "sphinxcontrib.video
+    "sphinxcontrib.video"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
