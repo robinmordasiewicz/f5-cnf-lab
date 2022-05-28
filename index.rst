@@ -32,7 +32,7 @@ Containerized Packs
 
    .. video:: intro.mp4
       :width: 360
-      :height: 190
+      :height: 196
 
    ..  youtube:: 7riGQIJRJgI
        :width: 295
