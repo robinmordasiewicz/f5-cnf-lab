@@ -12,7 +12,7 @@ F5 CNF
    policies/index.rst
    cicd/index.rst
 
-.. sidebar:: Title
+.. sidebar:: Sidebar Title
    :subtitle: Subtitle
 
    Sidebar TESTING - indented lines comprise
