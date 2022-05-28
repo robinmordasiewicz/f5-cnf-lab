@@ -80,6 +80,7 @@ Containerized Packs
        class k8scluster cluster;
 
 .. video:: intro.mp4
+   :id: video
    :width: 360
    :height: 190
 
