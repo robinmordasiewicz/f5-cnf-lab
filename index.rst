@@ -1,5 +1,5 @@
 ===========================
-Containerized BIG-IP NEXT
+Containerized BIG-IP CNF
 ===========================
 
 .. toctree::
