@@ -22,11 +22,11 @@ Containerized Packs
 
 .. container:: hero-header-image
 
-   F5 Cloud Native Functions
+   Cloud Native - CGNAT
 
 .. container:: hero-header-block
 
-   Unleash the power of Kubernetes on the world and your family
+   F5 CGNAT cloud native container in K8S
 
 .. container:: video-sidebar
 
@@ -34,7 +34,7 @@ Containerized Packs
       :width: 396
       :height: 210
 
-.. topic:: Your Topic Title
+.. topic:: CGNAT Container
 
     Subsequent indented lines comprise
     the body of the topic, and are
