@@ -22,7 +22,7 @@ Containerized BIG-IP CNF
 
 .. container:: hero-header-image
 
-   Cloud Native - CGNAT
+   Containerized BIG-IP NEXT
 
 .. container:: hero-header-block
 
