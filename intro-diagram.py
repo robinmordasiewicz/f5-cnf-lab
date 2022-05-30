@@ -32,7 +32,7 @@ with Diagram(name="F5 - Cloud Native Solutions", show=False, direction="LR", fil
 
     subscribers = Mobile("Subscribers")
     with Cluster("BIG-IP NEXT",graph_attr=spk_attr):
-        spk = Custom("Service Proxy", "f5-logo-white.png")
+        spk = Custom("Service Proxy", "images/f5-logo-white.png")
         subscribers - Edge(color="darkorange",style="dashed",label="SIP HTTP2 Diamter") - spk
     with Cluster("Kubernetes",graph_attr=k8s_attr):
         diameter = RS("Diameter")
@@ -41,7 +41,7 @@ with Diagram(name="F5 - Cloud Native Solutions", show=False, direction="LR", fil
         spk - sip
         http2 = RS("HTTP/2")
         spk - http2
-        servicemesh = Custom("Service Mesh", "ASPEN.png")
+        servicemesh = Custom("Service Mesh", "images/ASPEN.png")
         diameter - servicemesh
         sip - servicemesh
         http2 - servicemesh
