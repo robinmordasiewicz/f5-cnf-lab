@@ -30,7 +30,7 @@ Containerized BIG-IP CNF
 
 .. container:: video-sidebar
 
-   .. video:: intro.mp4
+   .. video:: index.mp4
       :width: 396
       :height: 210
 
