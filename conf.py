@@ -36,7 +36,6 @@ extensions = [
     "sphinx_copybutton",
     "sphinxcontrib.mermaid",
     "sphinx-favicon",
-    "sphinxcontrib.slide",
     "sphinxcontrib.video"
 ]
 
