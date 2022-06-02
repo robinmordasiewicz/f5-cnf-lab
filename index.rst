@@ -12,13 +12,10 @@ Containerized BIG-IP CNF
    policies/index.rst
    cicd/index.rst
 
-.. sidebar:: Sidebar Title
-   :subtitle: Sidebar Subtitle
+.. sidebar:: Presentation
 
    Sidebar TESTING - indented lines comprise
-   the body of the sidebar, and are
-   interpreted as body elements. Go to town on a horse.
-   Or ride a scooter
+   `Display Text <_static/myDocument.pptx>`_.
 
 .. container:: hero-header-image
 
@@ -39,7 +36,6 @@ Containerized BIG-IP CNF
     Subsequent indented lines comprise
     the body of the topic, and are
     interpreted as body elements.
-    `Display Text <index.pptx>`_.
 
 .. mermaid::
    :caption: Service Proxy for Kubernetes
