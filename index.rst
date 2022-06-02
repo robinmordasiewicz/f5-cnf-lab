@@ -14,8 +14,6 @@ Containerized BIG-IP CNF
 
 .. sidebar:: Presentation
 
-   Fresh New Slide Decks
-
    .. image:: index.png
       :target: index.pptx
 
