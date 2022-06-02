@@ -6,29 +6,7 @@ paginate: true
 marp: true
 ---
 
-<!-- _class: logo -->
-
-![width:32px height:32px](theme/f5-logo-white.png)
-
-![width:32px height:32px](theme/f5-logo-rgb.png)
-
-![bg opacity](https://yhatt-marp-cli-example.netlify.com/assets/gradient.jpg)
-
-<!-- _class: title -->
-
-# Title layout:<br>Solid Color Option
-
-<!-- _class: presentername -->
-
-### Presenter Name
-
-<!-- _class: position -->
-
-#### Position
-
-<!-- _class: date -->
-
-### Date
+![width:1920px height:1080px](index.png)
 
 ---
 
