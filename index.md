@@ -8,9 +8,9 @@ marp: true
 
 <!-- _class: logo -->
 
-![width:32px height:32px](f5-logo-white.png)
+![width:32px height:32px](theme/f5-logo-white.png)
 
-![width:32px height:32px](f5-logo-rgb.png)
+![width:32px height:32px](theme/f5-logo-rgb.png)
 
 ![bg opacity](https://yhatt-marp-cli-example.netlify.com/assets/gradient.jpg)
 
