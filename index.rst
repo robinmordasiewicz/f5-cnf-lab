@@ -14,8 +14,10 @@ Containerized BIG-IP CNF
 
 .. sidebar:: Presentation
 
-   Sidebar TESTING - indented lines comprise
-   `Display Text <_static/myDocument.pptx>`_.
+   Fresh New Slide Decks
+
+   .. image:: index.png
+      :target: index.pptx
 
 .. container:: hero-header-image
 
