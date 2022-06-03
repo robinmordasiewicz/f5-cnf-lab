@@ -18,10 +18,6 @@ https://marp.app/
 
 ---
 
-Agenda Slide
-
----
-
 ![bg left](diagram1.png) (This is the first diagram)
 
 ---
@@ -30,6 +26,8 @@ Agenda Slide
 
 ---
 
-![bg right](diagram1.png) 
-![bg](diagram2.png)(two images on the right, appear as two slices. each slice is the 25% of the slide width)
+<!-- _class: intro -->
 
+![width:1920px height:1080px](outro.png)
+
+---
