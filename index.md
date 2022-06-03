@@ -20,6 +20,8 @@ marp: true
 - Python Powerpoint
 - MLT framework
 - Shotcut
+- Adobe
+- Lucid
 
 ---
 
