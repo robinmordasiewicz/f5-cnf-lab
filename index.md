@@ -27,7 +27,7 @@ marp: true
 
 ---
 
-Diagrams as Code ![width:720px](diagram2.png)
+Diagrams as Code ![width:1280px height:720cm](diagram2.png)
 
 ---
 
