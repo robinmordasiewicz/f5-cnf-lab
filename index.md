@@ -22,7 +22,7 @@ https://marp.app/
 
 ---
 
-Diagrams as Code ![bg_right](diagram2.png)
+Diagrams as Code ![bg right](diagram2.png)
 
 ---
 
