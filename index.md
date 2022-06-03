@@ -18,11 +18,11 @@ https://marp.app/
 
 ---
 
-![bg left](diagram1.png) (This is the first diagram)
+![bg left](diagram1.png) Diagrams as Code
 
 ---
 
-(This is the second diagram)![bg_right](diagram2.png)
+Diagrams as Code ![bg_right](diagram2.png)
 
 ---
 
