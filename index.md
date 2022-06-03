@@ -27,7 +27,7 @@ marp: true
 
 ---
 
-Diagrams as Code ![bg right:80%](diagram2.png)
+Diagrams as Code ![[width:600px]](diagram2.png)
 
 ---
 
