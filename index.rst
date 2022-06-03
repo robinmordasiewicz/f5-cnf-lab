@@ -1,5 +1,5 @@
 ==================================
-BIG-IP Cloud Native
+Content as Code
 ==================================
 
 .. toctree::
@@ -19,11 +19,11 @@ BIG-IP Cloud Native
 
 .. container:: hero-header-image
 
-   BIG-IP Cloud Native
+   Content as Code
 
 .. container:: hero-header-block
 
-   F5 CGNAT cloud native container in K8S
+   Continuous improvement and deployment of content
 
 .. container:: video-sidebar
 
@@ -31,7 +31,7 @@ BIG-IP Cloud Native
       :width: 396
       :height: 210
 
-.. topic:: Containerized Functions
+.. topic:: Modern Application Principles
 
     Kubernetes is often written as K8S
     the body of the topic, and are
