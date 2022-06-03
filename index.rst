@@ -77,27 +77,27 @@ Content as Code
        class k8scluster cluster;
 
 
-#. Blue Items
+#. Jenkins Continuous Integration
 
-   The first paragraph in an ordered list would be nice to have a gray or grey background.
+   Gitops principles define a separation of integration pipelines from the deployment pipelines.
 
    .. code-block:: console
 
-      $ kill -9
+      $ kubectl apply -f jenkins.yaml
 
    .. container:: orderedlistitem
 
-      An orderedlistitem helps explain whats going on.
+      When the source control detects changes, a web hook triggers a series of automations which recompile code.
 
-#. Red Items
+#. ArgoCD Continuous Deployment
 
    The first paragraph in an ordered list would be nice to have a gray background.
 
    .. code-block:: console
 
-      $ kill -9 86
+      $ kubectl apply -f nginx.yaml
 
    .. container:: orderedlistitem
 
-      An ordered list item helps explain whats going on.
+      ArgoCD continuously monitors the declaration in the SCM and will automatically deploy the version defined in the application manifest.
 
