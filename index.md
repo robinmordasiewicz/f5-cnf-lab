@@ -12,15 +12,7 @@ marp: true
 
 ---
 
-# Slide 2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
----
-
-# **Marp**
-
-Markdown Presentation Ecosystem
+# **Content as Code**
 
 https://marp.app/
 
