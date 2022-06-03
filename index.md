@@ -22,14 +22,14 @@ Agenda Slide
 
 ---
 
-![bg left](diagram1.png) (image on the left, with text on the right)
+![bg left](diagram1.png) (This is the first diagram)
 
 ---
 
-![bg left:33%](diagram1.png) (same of above, but image is 33% of the slide)
+![bg right](diagram2.png) (This is the second diagram)
 
 ---
 
-![bg right](diagram2.png) 
+![bg right](diagram1.png) 
 ![bg](diagram2.png)(two images on the right, appear as two slices. each slice is the 25% of the slide width)
 
