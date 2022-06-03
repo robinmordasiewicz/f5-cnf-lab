@@ -14,9 +14,12 @@ marp: true
 
 # **Content as Code**
 
-- One
-- Two
-- Three
+- ImageMagick
+- ffmpeg
+- Mermaid Diagrams
+- Python Powerpoint
+- MLT framework
+- Shotcut
 
 ---
 
