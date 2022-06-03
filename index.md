@@ -30,4 +30,3 @@ https://marp.app/
 
 ![width:1920px height:1080px](outro.png)
 
----
