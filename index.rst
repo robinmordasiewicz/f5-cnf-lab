@@ -1,6 +1,6 @@
-===========================
-Containerized BIG-IP CNF
-===========================
+==================================
+BIG-IP Cloud Native
+==================================
 
 .. toctree::
    :titlesonly:
@@ -19,7 +19,7 @@ Containerized BIG-IP CNF
 
 .. container:: hero-header-image
 
-   Containerized BIG-IP NEXT
+   BIG-IP Cloud Native
 
 .. container:: hero-header-block
 
@@ -31,9 +31,9 @@ Containerized BIG-IP CNF
       :width: 396
       :height: 210
 
-.. topic:: CGNAT Container
+.. topic:: Containerized Functions
 
-    Subsequent indented lines comprise
+    Kubernetes is often written as K8S
     the body of the topic, and are
     interpreted as body elements.
 

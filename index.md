@@ -6,6 +6,8 @@ paginate: true
 marp: true
 ---
 
+_paginate: false
+
 ![width:1920px height:1080px](index.png)
 
 ---
