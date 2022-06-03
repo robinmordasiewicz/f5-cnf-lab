@@ -22,7 +22,7 @@ https://marp.app/
 
 ---
 
-(This is the second diagram)![80%](diagram2.png)
+(This is the second diagram)![bg_right](diagram2.png)
 
 ---
 
